@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RestartMe</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="main-header">
+    <div class="lang-toggle">
+    <button class="lang-btn lang-ua active" data-lang="uk">UA</button>
+    <button class="lang-btn lang-en" data-lang="en">EN</button>
+  </div>
+   <div class="header-content">
+  <div class="logo">
+    <span>Restart</span><span class="blue">Me</span>
+  </div>
+  <nav>
+    <ul class="nav-list">
+      <li><a href="#about" data-i18n="about">About</a></li>
+      <li><a href="#program" data-i18n="program">Program</a></li>
+      <li><a href="#appointment" data-i18n="signupNav">Sign Up</a></li>
+    </ul>
+  </nav>
+</div>
+  </header>
+  <main>
+    <section class="section main-section animate-on-scroll">
+      <div class="left">
+        <h1 data-i18n="mainTitle">Вимкни галас.<br>Почуй себе.</h1>
+        <p class="desc" data-i18n="mainDesc">RestartMe — це 7-денний марафон цифрового детоксу. Без додатків, <br>без залипання, лише ти.</p>
+        <button class="main-btn" data-action="open-modal" data-i18n="signupBtn">Записатись</button>
+      </div>
+      <div class="right">
+        <img src="img/Girl.png" alt="Girl with chill" class="girl-img">
+        <div class="caption" data-i18n="mainCaption">
+          7 днів без соцмереж. Із собою на зв'язку.
+        </div>
+      </div>
+    </section>
+    <section class="section about animate-on-scroll">
+      <h2 id="about" data-i18n="aboutTitle">Чому саме цифровий детокс?</h2>
+      <p data-i18n="aboutText">Ми живемо в епоху нескінченних повідомлень, постійного скролінгу й втоми, яку не знімає навіть сон.<br>
+      <b>RestartMe — це 7 днів перезавантаження, в яких ти:</b></p>
+      <ul class="benefits">
+        <li data-i18n="benefit1">знижуєш тривожність</li>
+        <li data-i18n="benefit2">повертаєш увагу до реального життя</li>
+        <li data-i18n="benefit3">вчишся бути офлайн — без страху щось пропустити</li>
+      </ul>
+      <p class="note" data-i18n="aboutNote">Це не про видалення соцмереж. Це про новий контакт із собою.</p>
+    </section>
+    <section class="section experience animate-on-scroll experience-centered">
+      <h2 id="program" data-i18n="experienceTitle">Не завдання. Це — досвід.<br>
+        <span class="sub" data-i18n="experienceSub">Кожен день — нове відчуття.</span>
+      </h2>
+      <div class="days">
+        <div class="day day-centered">
+          <span class="day-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#50b6b2" style="width:44px;height:44px;">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 9.75 19.5 12m0 0 2.25 2.25M19.5 12l2.25-2.25M19.5 12l-2.25 2.25m-10.5-6 4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z" />
+        </svg>
+          </span>
+          <b data-i18n="day1Title">День 1 — Тиша</b>
+          <div class="day-desc" data-i18n="day1Desc">Вперше ти не прокинешся з телефоном. І буде спокій.</div>
+        </div>
+        <div class="day day-centered">
+          <span class="day-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#50b6b2" style="width:44px;height:44px;">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z" />
+        </svg>
+          </span>
+          <b data-i18n="day2Title">День 2 — Земля</b>
+          <div class="day-desc" data-i18n="day2Desc">Прогулянка без музики. Просто дихати, йти, бути.</div>
+        </div>
+        <div class="day day-centered">
+          <span class="day-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#50b6b2" style="width:44px;height:44px;">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m3 3 8.735 8.735m0 0a.374.374 0 1 1 .53.53m-.53-.53.53.53m0 0L21 21M14.652 9.348a3.75 3.75 0 0 1 0 5.304m2.121-7.425a6.75 6.75 0 0 1 0 9.546m2.121-11.667c3.808 3.807 3.808 9.98 0 13.788m-9.546-4.242a3.733 3.733 0 0 1-1.06-2.122m-1.061 4.243a6.75 6.75 0 0 1-1.625-6.929m-.496 9.05c-3.068-3.067-3.664-7.67-1.79-11.334M12 12h.008v.008H12V12Z" />
+        </svg>
+          </span>
+          <b data-i18n="day3Title">День 3 — Дзеркало</b>
+          <div class="day-desc" data-i18n="day3Desc">Без стрічки новин. Побути з собою — справжнім.</div>
+        </div>
+        <div class="day day-centered">
+          <span class="day-icon">
+             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#50b6b2" style="width:44px;height:44px;">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+    </svg>
+          </span>
+          <b data-i18n="day4Title">День 4 — Слово</b>
+          <div class="day-desc" data-i18n="day4Desc">Напиши собі. Тільки собі. Це легше, ніж здається.</div>
+        </div>
+        <div class="day day-centered">
+          <span class="day-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#50b6b2" style="width:44px;height:44px;">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9.143 17.082a24.248 24.248 0 0 0 3.844.148m-3.844-.148a23.856 23.856 0 0 1-5.455-1.31 8.964 8.964 0 0 0 2.3-5.542m3.155 6.852a3 3 0 0 0 5.667 1.97m1.965-2.277L21 21m-4.225-4.225a23.81 23.81 0 0 0 3.536-1.003A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6.53 6.53m10.245 10.245L6.53 6.53M3 3l3.53 3.53" />
+        </svg>
+          </span>
+          <b data-i18n="day5Title">День 5 — Вимкни</b>
+          <div class="day-desc" data-i18n="day5Desc">Менше екранів — більше життя.</div>
+        </div>
+        <div class="day day-centered">
+          <span class="day-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#50b6b2" style="width:44px;height:44px;">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+        </svg>
+          </span>
+          <b data-i18n="day6Title">День 6 — Близькість</b>
+          <div class="day-desc" data-i18n="day6Desc">Розмова без телефону. Слухати. Бачити.</div>
+        </div>
+        <div class="day day-centered">
+          <span class="day-icon">
+             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#50b6b2" style="width:44px;height:44px;">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15.182 15.182a4.5 4.5 0 0 1-6.364 0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z" />
+        </svg>
+          </span>
+          <b data-i18n="day7Title">День 7 — Ритм</b>
+          <div class="day-desc" data-i18n="day7Desc">Знайди свій темп. Свій стиль. Свій ранок.</div>
+        </div>
+      </div>
+    </section>
+    <section class="section reviews animate-on-scroll">
+      <h2 data-i18n="reviewTitle">Що кажуть учасники?</h2>
+      <div class="review-list">
+        <div class="review">
+          <div class="review-avatar">
+            <img src="img/irina.avif" alt="Фото Ірина" />
+          </div>
+          <div data-i18n="review1">
+            «На третій день зловила себе на думці: я не перевіряла телефон уже годину. І мені добре.»<br>
+            — Ірина, 26
+          </div>
+        </div>
+        <div class="review">
+          <div class="review-avatar">
+            <img src="img/Oleksiy.avif" alt="Фото Олексій" />
+          </div>
+          <div data-i18n="review2">
+            «Марафон не змінив мене. Він повернув мене до себе.»<br>
+            — Олексій, 34
+          </div>
+        </div>
+        <div class="review">
+          <div class="review-avatar">
+            <img src="img/Anastasia.avif" alt="Фото Настя" />
+          </div>
+          <div data-i18n="review3">
+            «Слово "детокс" стало для мене не про тіло, а про голову.»<br>
+            — Настя, 22
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section team animate-on-scroll">
+      <h2 data-i18n="teamTitle">RestartMe створено тими, хто теж втомився.</h2>
+      <p data-i18n="teamText">Ми — команда дизайнерів, психологів і айтішників, які самі пройшли через цифрову перевтому.<br>
+      Ми не обіцяємо чудес.<br>
+      Ми просто допоможемо зупинитись — і почути себе.</p>
+    </section>
+    <section class="section faq animate-on-scroll faq-centered">
+      <h2 data-i18n="faqTitle">Часті запитання</h2>
+      <ul class="faq-list compact-faq">
+        <li class="faq-item">
+          <span class="faq-q" data-i18n="faqQ1">Це безкоштовно?</span>
+          <span class="faq-a" data-i18n="faqA1">Так, марафон безкоштовний і відкритий для всіх.</span>
+        </li>
+        <li class="faq-item">
+          <span class="faq-q" data-i18n="faqQ2">Чи потрібно видаляти Instagram?</span>
+          <span class="faq-a" data-i18n="faqA2">Ні. Але ми покажемо, як змінити свої звички.</span>
+        </li>
+        <li class="faq-item">
+          <span class="faq-q" data-i18n="faqQ3">Скільки часу займає?</span>
+          <span class="faq-a" data-i18n="faqA3">Від 15 до 30 хвилин щодня.</span>
+        </li>
+        <li class="faq-item">
+          <span class="faq-q" data-i18n="faqQ4">Пробний день</span>
+          <span class="faq-a" data-i18n="faqA4">Хочеш спробувати, перш ніж приєднатись? Пройди День 1 прямо зараз — без реєстрації.</span>
+        </li>
+      </ul>
+    </section>
+    <section class="section cta animate-on-scroll">
+      <h2 id="appointment" data-i18n="ctaTitle">Готовий зробити паузу?</h2>
+      <p data-i18n="ctaText">Повернись до себе. Почни з 1 дня.</p>
+      <button class="main-btn" data-action="open-modal" data-i18n="ctaBtn">Почати зараз</button>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="#" data-i18n="privacy">Політика конфіденційності</a>
+      <a href="#" data-i18n="terms">Умови використання</a>
+      <a href="#" data-i18n="instagram">Instagram</a>
+      <a href="#" data-i18n="contacts">Контакти</a>
+    </div>
+    <div class="footer-copy">&copy; 2025 RestartMe</div>
+  </footer>
+  <div class="modal-overlay" id="reg-modal">
+    <div class="modal">
+      <button class="modal-close" id="close-modal">&times;</button>
+      <h2 data-i18n="modalTitle">Записатись на марафон</h2>
+      <form id="reg-form" autocomplete="off">
+        <input type="text" name="fullname" placeholder="Ваше ПІБ" required data-i18n-ph="namePh"/>
+        <input type="email" name="email" placeholder="E-mail" required />
+        <input type="tel" name="phone" placeholder="Телефон" required data-i18n-ph="phonePh"/>
+        <label class="modal-checkbox">
+          <input type="checkbox" name="consent" required>
+          <span data-i18n="consentText">Я даю згоду на обробку персональних даних</span>
+        </label>
+        <button type="submit" class="main-btn" style="width:100%; margin-top:18px;" data-i18n="sendBtn">Відправити</button>
+        <div class="modal-success" id="modal-success" style="display:none;" data-i18n="modalSuccess">Дякуємо! Ми зв'яжемось з вами.</div>
+      </form>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
